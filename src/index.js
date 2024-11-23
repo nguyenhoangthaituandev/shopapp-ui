@@ -1,13 +1,18 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
-import './scss/GlobalStyles.scss'
-import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
+import Home from './component/Home';
+import styles from "./assets/css/Common.module.css";
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
-    <App />
+  <div className={styles.body}>
+    <Home/>
+  </div>
   </StrictMode>
     
 );
