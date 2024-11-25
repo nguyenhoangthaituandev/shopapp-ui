@@ -1,0 +1,79 @@
+.container{
+    color:white;
+}
+.introSection{
+    text-align: center;
+    color:white
+}
+
+.productHeader{
+    color:rgb(233,66,176);
+}
+
+.formControl{
+    background-color: rgb(19,23,42);
+    border:1px solid rgb(29,33,54);
+    color:white;
+}
+
+.formControl:focus{
+    border-color:white;
+    background-color: rgb(19,23,42);
+    color:white;
+}
+
+.formControl::placeholder{
+    color:gray;
+}
+
+.formLabel{
+    color:white;
+}
+
+.productOrder{
+    color:rgb(105,244,181);
+}
+
+table{
+    width:100%;
+    border-radius:10px;
+    border:none;
+    border-collapse: separate;
+    border:1px solid white;
+    border-spacing: 0;
+    background-color: rgb(12,13,54);
+}
+
+th,
+td{
+    padding:10px;
+    text-align: center;
+}
+
+.productInfo{
+    display:flex;
+    align-items: center;
+}
+
+.productImage{
+    width:100px;
+    height:100px;
+    border-radius:5px;
+    margin-right:10px;
+}
+
+.productName{
+    color:white;
+    margin-right:10px;
+}
+
+.productCoupon{
+    color:white;
+}
+
+.btnGradient{
+    background: linear-gradient(to right,rgb(255,64,180),rgb(126,43,237));
+    color:white;
+    border-radius:30px;
+    width:200px;
+}

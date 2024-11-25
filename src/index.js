@@ -4,17 +4,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './component/Home';
 import styles from "./assets/css/Common.module.css";
+import Order from './component/Order';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
-  <div className={styles.body}>
-    <Home/>
-  </div>
+    <div className={styles.body}>
+      <Order />
+    </div>
   </StrictMode>
-    
+
 );
 
 // If you want to start measuring performance in your app, pass a function
