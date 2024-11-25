@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './component/Home';
 import styles from "./assets/css/Common.module.css";
 import Order from './component/Order';
+import OrderConfirm from './component/OrderConfirm';
 
 
 
@@ -12,7 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
     <div className={styles.body}>
-      <Order />
+      <OrderConfirm/>
     </div>
   </StrictMode>
 

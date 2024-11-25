@@ -1,6 +1,6 @@
 import styles from "../assets/css/Home.module.css";
 import classNames from "classnames";
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faStar,
@@ -15,10 +15,10 @@ const Home = () => {
   const selectCategoryCSS = classNames("form-control", styles.productCategory);
   const searchInputCSS = classNames("form-control", styles.searchInput);
   const productItemCSS = classNames(styles.productItem);
-  
+
   return (
     <>
-      <Header/>
+      <Header />
       <div className="container">
         <div className={styles.introSection}>
           <h1>Đây là trang home</h1>
@@ -250,7 +250,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-     <Footer/>
+      <Footer />
     </>
   );
 };

@@ -4,10 +4,10 @@ import styles from "../assets/css/Order.module.css";
 import classNames from "classnames";
 
 const Order = () => {
-  const containerCSS=classNames("container",styles.container);
+  const containerCSS = classNames("container", styles.container);
   const formControlCSS = classNames("form-control", styles.formControl);
   const formLabelCSS = classNames("form-label", styles.formLabel);
-  const buttonCSS=classNames("btn ",styles.btnGradient);
+  const buttonCSS = classNames("btn ", styles.btnGradient);
 
   return (
     <>
@@ -25,19 +25,34 @@ const Order = () => {
                 <label for="name" className={formLabelCSS}>
                   Họ và tên
                 </label>
-                <input type="text" className={formControlCSS} id="name" placeholder="Nhập họ và tên"/>
+                <input
+                  type="text"
+                  className={formControlCSS}
+                  id="name"
+                  placeholder="Nhập họ và tên"
+                />
               </div>
               <div class="mb-3">
                 <label for="email" className={formLabelCSS}>
                   Email
                 </label>
-                <input type="email" className={formControlCSS} id="email" placeholder="Nhập email"/>
+                <input
+                  type="email"
+                  className={formControlCSS}
+                  id="email"
+                  placeholder="Nhập email"
+                />
               </div>
               <div class="mb-3">
                 <label for="phone" className={formLabelCSS}>
                   Số điện thoại
                 </label>
-                <input type="text" className={formControlCSS} id="phone" placeholder="Nhập số điện thoại"/>
+                <input
+                  type="text"
+                  className={formControlCSS}
+                  id="phone"
+                  placeholder="Nhập số điện thoại"
+                />
               </div>
             </form>
           </div>
@@ -121,17 +136,25 @@ const Order = () => {
               </tbody>
             </table>
             <div className="text-start mt-3">
-                <h4 className="header-text text-end">Tổng giá: 800 000 đ</h4>
+              <h4 className="header-text text-end">Tổng giá: 800 000 đ</h4>
             </div>
             <div className="mt-3">
-                <h4 className={styles.productHeader}>Nhập coupon</h4>
-                <div className="input-group">
-                    <input type="text" className={formControlCSS} placeholder="Nhập coupon"/>
-                    <button className={buttonCSS} type="button">Áp dụng</button>
-                </div>
+              <h4 className={styles.productHeader}>Nhập coupon</h4>
+              <div className="input-group">
+                <input
+                  type="text"
+                  className={formControlCSS}
+                  placeholder="Nhập coupon"
+                />
+                <button className={buttonCSS} type="button">
+                  Áp dụng
+                </button>
+              </div>
             </div>
             <div className="text-start mt-3">
-                <button className={buttonCSS} type="button">Đặt hàng</button>
+              <button className={buttonCSS} type="button">
+                Đặt hàng
+              </button>
             </div>
           </div>
         </div>
