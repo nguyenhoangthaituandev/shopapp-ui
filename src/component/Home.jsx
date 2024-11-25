@@ -1,15 +1,24 @@
 import styles from "../assets/css/Home.module.css";
 import classNames from "classnames";
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar, faStarHalfStroke } from "@fortawesome/free-solid-svg-icons";
+import {
+  faStar,
+  faStarHalfStroke,
+  faCartShopping,
+} from "@fortawesome/free-solid-svg-icons";
+import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import Footer from "./Footer";
+import Header from "./Header";
 
 const Home = () => {
   const selectCategoryCSS = classNames("form-control", styles.productCategory);
   const searchInputCSS = classNames("form-control", styles.searchInput);
   const productItemCSS = classNames(styles.productItem);
-
+  
   return (
     <>
+      <Header/>
       <div className="container">
         <div className={styles.introSection}>
           <h1>Đây là trang home</h1>
@@ -241,6 +250,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+     <Footer/>
     </>
   );
 };
