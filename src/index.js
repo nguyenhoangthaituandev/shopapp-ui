@@ -8,6 +8,7 @@ import Order from './component/Order';
 import OrderConfirm from './component/OrderConfirm';
 import Login from './component/Login';
 import Register from './component/Register';
+import DetailProduct from './component/DetailProduct';
 
 
 
@@ -15,7 +16,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
     <div className={styles.body}>
-      <Register/>
+      <DetailProduct/>
     </div>
   </StrictMode>
 
