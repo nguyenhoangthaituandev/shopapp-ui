@@ -1,0 +1,110 @@
+.container {
+    color: white;
+    height: 100vh;    
+}
+
+.registerForm {
+    background-color: rgb(12,22,55);
+    border-radius: 10px;
+    padding:20px;
+    max-width: 500px;
+    border:1px solid rgb(32,34,60);
+    align-items: center;
+    justify-content: center;
+}
+
+.registerHeader {
+    text-align: center;
+    color:rgb(105,244,181);
+    margin-bottom: 20px;
+
+}
+
+/* .label-text {
+    color: rgb(243, 165, 42);
+} */
+
+.formControl {
+    background-color: transparent;
+    border:none;
+    color:white;
+}
+
+.formControl:focus {
+    color:white;
+    background-color: transparent;
+    outline: none;
+    border-color: transparent;
+   
+}
+
+.formControl::placeholder{
+    color:gray;
+}
+
+.dividerNospace{
+    border-top: 1px solid white;
+}
+
+.passwordField {
+    position: relative;
+}
+
+.passwordToggle {
+    position:absolute;
+    top:70%;
+    right: 10px;
+    transform: translateY(-50%);
+    color:rgb(105,244,181);
+    cursor: pointer;
+}
+
+.checkBoxText{
+    color:rgb(243,165,42);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding:0px;
+}
+
+.checkBoxText input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+.checkBoxText input[type="checkbox"]:checked{
+    border-color:white;
+    background-color:rgb(233,66,178);
+}
+
+.formCheckInput {
+    margin-right: 5px;
+}
+
+.registerLink {
+    color: gb(233,66,178);
+    text-decoration: none;
+}
+
+.registerButton {
+    background: linear-gradient(to right, rgb(105,244,181),rgb(25, 52, 143));
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+    border: none;
+}
+
+.divider {
+    height: 1px;
+    background-color: rgb(243, 165, 42);
+    /*      background-color: rgb(105, 244, 181)*/
+    margin: 20px;
+}
